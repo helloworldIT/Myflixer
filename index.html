@@ -1,0 +1,1791 @@
+<!-- This is my first project, MyFlixer is a film website-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFlixer - Watch Movies & Series Online Free Full HD in MyMlixer</title>
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Start header -->
+        <header class="header">
+            <div class="grid">
+                
+                
+                <!-- Navbar -->
+                <nav class="header-navbar">
+                    <div class="header-logo middle">
+                        <img src="assets/images/header/logo.png" alt="Logo MyFlixer" class="header-logo__img">
+                        <h2 class="header-logo__heading">MyFlixer</h2>
+                    </div>
+                    
+                    <ul class="navbar__list middle">
+                        <li class="header-navbar__item">
+                            <a href="" class="header-navbar__link">HOME</a>
+                        </li>
+    
+                        <li class="header-navbar__item header-navbar__item--show-submenu">
+                            <a href="" class="header-navbar__link">GENRE</a>
+                            <div class="sub-menu header-navbar__item--display">
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Action</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Biography</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Crime</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Family</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">History</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Music</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Romance</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Thriller</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Western</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Adventure</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Costume</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Documentary</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Fantasy</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Horror</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Mystery</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Sci-Fi</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">TV show</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Animation</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Comedy</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Drama</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Game-show</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Kungfu</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Reality-TV</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Sport</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">War</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+    
+                        <li class="header-navbar__item header-navbar__item--show-submenu">
+                            <a href="" class="header-navbar__link">COUNTRY</a>
+                            <div class="sub-menu header-navbar__item--display">
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Argentina</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Belgium</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">China</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Finland</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Hong Kong</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">International</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Italia</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Netherlands</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Philippines</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Russia</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Spain</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">United Kingdom</a>
+                                    </li>
+ 
+                                </ul>
+
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Australia</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Brazil</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Czech Republic</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">France</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Hungary</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Ireland</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Japan</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">New Zealand</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Poland</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">South Africa</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Sweden</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">United States</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Austria</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Canada</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Denmark</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Germany</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">India</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Israel</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Mexico</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Norway</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Romania</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">South Korea</a>
+                                    </li>
+
+                                    <li class="sub-menu__item">
+                                        <a href="" class="sub-menu__link">Switzerland</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+    
+                        <li class="header-navbar__item">
+                            <a href="" class="header-navbar__link">MOVIES</a>
+                        </li>
+    
+                        <li class="header-navbar__item">
+                            <a href="" class="header-navbar__link">TV SHOWS</a>
+                        </li>
+    
+                        <li class="header-navbar__item">
+                            <a href="" class="header-navbar__link">TOP IMDB</a>
+                        </li>
+                    </ul>
+
+                    <div class="header-navbar__user middle js-header-navbar__user">
+                        <i class="header-navbar__user-icon fa-solid fa-circle-user"></i>
+                        <span class="header-navbar__user-auth">Login/ Register</span>
+                    </div>
+                </nav>
+
+                <h1 class="header__title">Find Movies, TV shows and more</h1>
+
+                <div class="header-search">
+                    <form action="">
+                        <i class="header-search__icon fa-solid fa-magnifying-glass"></i>
+                        <input type="search" name="search" placeholder="Enter your keywords..." class="header-search__input">
+                        <button class="header-search__btn">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+
+        <!-- Start content -->
+        <div class="content">
+            <div class="grid">
+                <div class="content-description">
+                    <h2 class="content-description__heading">myflixer - Watch Free Movies Online</h2>
+                    <p class="content-description__detail">myflixer - myflixers com, myflixers, myflixer movies, my flixer online movies</p>
+                    <p class="content-description__detail">Watch your movies, tv shows online free in MyFlixer - no tracking - no ads - no virus.</p>
+                </div>
+    
+                <div class="content-contact">
+                    <a href="#" class="content-contact__social-media content-contact__social-media--animation" style="--brand-color: #3B5998">
+                        <i class="content-contact__icon fa-brands fa-facebook-f"></i>
+                        <span class="content-contact__name" >Facebook</span>
+                    </a>
+    
+                    <a href="#" class="content-contact__social-media content-contact__social-media--animation" style="--brand-color: #1DA1F2">
+                        <i class="content-contact__icon fa-brands fa-twitter"></i>
+                        <span class="content-contact__name" >Twitter</span>
+                    </a>
+    
+                    <a href="#" class="content-contact__social-media content-contact__social-media--animation" style="--brand-color: #848484">
+                        <i class="content-contact__icon fa-solid fa-envelope"></i>
+                        <span class="content-contact__name" >Email</span>
+                    </a>
+    
+                    <a href="#" class="content-contact__social-media content-contact__social-media--animation" style="--brand-color: #CB2027">
+                        <i class="content-contact__icon fa-brands fa-pinterest-p"></i>
+                        <span class="content-contact__name" >Pinterest</span>
+                    </a>
+    
+                    <a href="#" class="content-contact__social-media content-contact__social-media--animation" style="--brand-color: #4DC247">
+                        <i class="content-contact__icon fa-brands fa-whatsapp"></i>
+                        <span class="content-contact__name" >Whatsapp</span>
+                    </a>
+    
+                    <a href="#" class="content-contact__social-media content-contact__social-media--animation" style="--brand-color: #0088CC">
+                        <i class="content-contact__icon fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="content-contact__name" >Telegram</span>
+                    </a>
+    
+                    <div class="content-contact__social-media content-contact__social-media--visibility" style="--brand-color: #FF6550">
+                        <i class="content-contact__icon fa-sharp fa-solid fa-plus"></i>
+                        <span class="content-contact__name" >More</span>
+                        <span class="content-contact__users">2.5K</span>
+                        <ul class="content-contact__submenu">
+                            <li class="content-contact__item">
+                                <a href="" class="content-contact__link">
+                                    <i class="content-contact__item-icon fa-sharp fa-solid fa-print" style="--brand-color: #738a8d"></i>
+                                    <span class="content-contact__item-name">Print</span>
+                                </a>
+                            </li>
+    
+                            <li class="content-contact__item">
+                                <a href="" class="content-contact__link">
+                                    <i class="content-contact__item-icon fa-regular fa-envelope" style="--brand-color: rgb(219, 68, 55);"></i>
+                                    <span class="content-contact__item-name">Gmail</span>
+                                </a>
+                            </li>
+    
+                            <li class="content-contact__item">
+                                <a href="" class="content-contact__link">
+                                    <i class="content-contact__item-icon fa-brands fa-linkedin-in" style="--brand-color: rgb(0, 119, 181);"></i>
+                                    <span class="content-contact__item-name">Linkedin</span>
+                                </a>
+                            </li>
+    
+                            <li class="content-contact__item">
+                                <a href="" class="content-contact__link">
+                                    <i class="content-contact__item-icon fa-solid fa-envelope-open-text" style="--brand-color: rgb(88, 88, 88)"></i>
+                                    <span class="content-contact__item-name">Email App</span>
+                                </a>
+                            </li>
+    
+                            <li class="content-contact__item">
+                                <a href="" class="content-contact__link">
+                                    <i class="content-contact__item-icon fa-brands fa-tumblr" style="--brand-color: rgb(55, 69, 92)"></i>
+                                    <span class="content-contact__item-name">Tumblr</span>
+                                </a>
+                            </li>
+    
+                            <li class="content-contact__item">
+                                <a href="" class="content-contact__link">
+                                    <i class="content-contact__item-icon fa-brands fa-facebook-messenger" style="--brand-color: rgb(0, 132, 255);"></i>
+                                    <span class="content-contact__item-name">Messenger</span>
+                                </a>
+                            </li>
+    
+                            <li class="content-contact__item">
+                                <a href="" class="content-contact__link">
+                                    <i class="content-contact__item-icon fa-sharp fa-solid fa-plus" style="--brand-color: rgb(255, 101, 80);"></i>
+                                    <span class="content-contact__item-name">More... (181)</span>
+                                </a>
+                            </li>
+    
+                            <hr class="break-border">
+                            <a href="" class="content-contact__add">
+                                <i class="content-contact__add-icon fa-sharp fa-solid fa-plus" style="background-color: rgb(255, 101, 80);"></i>
+                                <span class="content-contact__item-name">Add this</span>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="content-header">
+                        <h1 class="content-header__heading">Recommended</h1>
+                        <a href="" class="btn btn--primary">
+                            <i class="fa-solid fa-circle-play"></i>
+                            <span class="btn__name">Movies</span>
+                        </a>
+
+                        <a href="" class="btn">
+                            <i class="fa-solid fa-list"></i>
+                            <span class="btn__name">TV Shows</span>
+                        </a>
+
+                        <a href="" class="btn">
+                            <i class="fa-solid fa-arrow-trend-up"></i>
+                            <span class="btn__name">Trending</span>
+                        </a>
+                </div>
+                <hr class="break-border break-border--heading">
+
+                <div class="grid__row">
+                    <div class="content-movie__container">
+                        <div class="content-movie__list">
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://img.myflixer.to/xxrz/250x400/201/e6/3e/e63ed28f989f758106689eaac3d1bed8/e63ed28f989f758106689eaac3d1bed8.jpg" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Fall</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">107 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+    
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+    
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/4/41/41755cce4ec31205db92405fdb6f45c0.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Day Shift</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">113 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2022/07/image002.png?resize=740%2C1104&ssl=1" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Prey</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">99 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/e/e6/e6a3414ee60ea718eef48d3aeee2f71c.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Nope</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">130 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/f/f5/f55303b4e3d2c5034472f09e32fc43dc.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Bullet Train</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">127 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">CAM</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/e/e1/e1a4619505b3a8740eafbedc899d2cff.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Thor: Love and Thunder</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">118 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">TS</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/d/d9/d9b989c9c6f3405c6c10858af7012e48.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Black Phone</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">103 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/4/40/4034f900d1db3ec9cd2a312108b83183.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Jurassic World Dominion</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">147 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="content-movie__list">
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/f/f3/f30547e9001c0b470b0d2c3f6c5ec265.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Minions: The Rise of Gru</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">87 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+    
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+    
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/e/ee/ee71e1bbf3d0346cc6b2c41ea6064250.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Elvis</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">159 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/b/b0/b0022e1b91b4abbb2003d39be5b3f806.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Top Gun: Maverick</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">130 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/c/c0/c0e016405ee53dc07750562f325020cc.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Hustle</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">117 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/5/52/52b35e64bd127dd7c6cfc0e94be466f8.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Memory</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">114 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">CAM</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/b/b9/b9543a866f96ca4ff64d72aafae86eec.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Chip 'n Dale: Rescue Rangers</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">97 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/5/5f/5f45143f58c6a291fbe9de493268055a.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Valet</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">124 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/4/4a/4aec1a9d611dfccb0ea37297f167a1d8.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Morbius</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">104 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="content-movie__list">
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/4/4a/4aec1a9d611dfccb0ea37297f167a1d8.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Lost City</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">112 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+    
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+    
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/9/9f/9f3cd9f37c5ee354e2151109a89d2278.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Northman</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">137 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/a/ae/ae7c282e9a82a1ded1dcfd611aaabfb9.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Fantastic Beasts: The Secrets of Dumbledore</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">142 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/3/30/3032dd9eda4315d1178df0f507b7c879.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Doctor Strange in the Multiverse of Madness</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">126 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/b/b4/b4916b6dc08b09135be7531f15ad178e.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Batman</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">127 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://img.myflixer.to/xxrz/250x400/201/98/0a/980a1d4f991ac0888850874b5c4ba6de/980a1d4f991ac0888850874b5c4ba6de.jpg" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Dragon Ball Super: Super Hero</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">99 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">CAM</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/d/d2/d20d43c2d2bb6d4f44d645a829eea028.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Turning Red</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">100 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/1/13/13d14723e1fbc516a877a72c7f49d0b2.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Dual</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">94 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-header">
+                    <h1 class="content-header__heading">Latest Movies</h1>
+                    <a href="#" class="content-header__view-all">
+                        View all 
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </a>
+                </div>
+                <hr class="break-border break-border--heading">
+
+                <div class="grid__row">
+                    <div class="content-movie__container">
+                        <div class="content-movie__list">
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/d/d1/d1d579af27e648c2f0c52c26fef5a5de.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Where the Crawdads Sing</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">125 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+    
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+    
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/7/73/7375ef1f0ea44a0fdc76ed3c597b2bdf.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Restart the Earth</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">89 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/b/b1/b111ee23b03c8374df09036bd3d09d72.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Marcel the Shell with Shoes On</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">90 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/c/ce/ce9fa06b3ad79645751e6554cddcfcc1.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Gigi & Nate</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">130 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">CAM</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/8/87/870a1a612b29a30bf30d968eb06cc97a.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">One Way</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">95 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">CAM</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/6/62/629a28a3a16c8e1f1b0a121d40fbaf09.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">FALL</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">107 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">TS</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/c/c5/c5230723a553fe74747f9db41528ed0e.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Where's Rose</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">83 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/e/ef/ef1e52b846ab2cba275356307e8c1f5c.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Railway Children Return</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">95 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="content-movie__list">
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/4/49/49127b5d54cedd6f7bda1bbb9260f3ea.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Joyride</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">94 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+    
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+    
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/6/68/68b5b31744ff1ea1793b8589d4826a72.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Low Life</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">105 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/1/1c/1c56507e17bf36c1502ac05d4392c246.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Me Time</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">101 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/7/7e/7e8074223940734e7f28a5ea23535b3b.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Manesater</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">89 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/f/f3/f31b39fec698569825e61aa3e4a40a73.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Samaritan</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">102 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/d/d3/d3858c2d5e916047b6fd4f48d378b633.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Emily the Criminal</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">97 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/e/e6/e6a3414ee60ea718eef48d3aeee2f71c.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Nope</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">130 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/a/aa/aae2ac4ee625f19ef6600960af2a9b59.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Runner</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">2022</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">102 min</span>
+                                        <span class="content-movie__type">Movie</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-header">
+                    <h1 class="content-header__heading">Latest TV-Series</h1>
+                    <a href="#" class="content-header__view-all">
+                        View all 
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </a>
+                </div>
+                <hr class="break-border break-border--heading">
+
+                <div class="grid__row">
+                    <div class="content-movie__container">
+                        <div class="content-movie__list">
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/8/81/81c499e18b60fa5f2dc8e16d24deae5c.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">What We Do in the Shadows</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS4</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 10</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+    
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+    
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/6/6a/6a6bd0bbd506b61ce8186e1dbdc5cd45.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">High School Musical: The Musical - The Series</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 3</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 7</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/c/c0/c06e3cfcee0317d70b01c65603fc428d.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Brassic</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 4</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 3</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/d/d0/d042f9d31fb7e1165cff5ee9fa75beb5.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Deadliest Catch</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 18</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 20</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/5/50/5095ca6372e865c15ecf4bea49c2e1e7.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Hard Knocks</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 18</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 5</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/5/5a/5a478555ef648ebd6bfbfe039fdd927e.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Below Deck Mediterranean</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 7 </span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 10</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">TS</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/0/02/02f2356dbcba67806f18c45b53b84319.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Teacher</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 1</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 4</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/8/80/8061c17e768c386f849c96b3f9bfbdca.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">My Life Is Murder</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 3</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 2</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="content-movie__list">
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/7/7d/7d8e9333d1051eb78e34bd8c6f44644f.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Patient</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 1</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 3</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+    
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+    
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/e/e4/e40348c7cf49f3dc258019f2851bc85a.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Roswell, New Mexico</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 4</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 13</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/2/2b/2bacdbd0a891aa7505bdbb13cbd5b0b3.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">In the Dark</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 4</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 13</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/6/63/63c3da2bbbadff34b34820d1dde6f80d.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Industry</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 2</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 6</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/a/ac/ac2c6d6714572673a1b491908f5df8f4.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">American Dad!</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 19</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 9</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/8/88/8800591a0e10dc834807cc6a1c217909.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Making the Cut</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 3</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 6</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/2/25/259639eca7293f26449c1d4f63a77cd0.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">The Suspect</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 1</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 2</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+    
+                            <div class="content-movie__item">
+                                <a href="#" class="content-movie__link">
+                                    <img src="https://static.bunnycdn.ru/i/cache/images/3/3a/3ab488c1b9dca474507fddae5bfeee18.jpg-w180" alt="" class="content-movie__poster">
+                                    <span class="content-movie__name">Chesapeake Shores</span>
+                                    <div class="content-movie__group">
+                                        <span class="content-movie__year">SS 6</span>
+                                        <span class="content-movie__dot">•</span>
+                                        <span class="content-movie__duration">EP 4</span>
+                                        <span class="content-movie__type">TV</span>
+                                    </div>
+                                    <div class="content-movie__wrap-btn">
+                                        <button class="content-movie__play-btn">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button> 
+                                    </div>
+                                    <span class="content-movie__quality">HD</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End content -->
+
+        <!-- Start Footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="footer-header">
+                    <div class="footer-header__group">
+                        <span class="footer-header__heading">Links</span>
+                        <div class="footer-header__group-content">
+                            <ul class="footer-header__list">
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Movies</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">TV-Shows</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Most Watched</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Top IMDb</a>
+                                </li>
+                            </ul>
+        
+                            <ul class="footer-header__list">
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Action</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Horror</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Sci-fi</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Thriller</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Zoro</a>
+                                </li>
+                            </ul>
+        
+                            <ul class="footer-header__list">
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Contact</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Request</a>
+                                </li>
+                                <li class="footer-header__item">
+                                    <a href="" class="footer-header__link">Sitemap</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="footer-header__group">
+                        <span class="footer-header__heading">About Us</span>
+                        <p class="footer-header__about">
+                            myflixer.ru is free movies streaming site with zero ads, it allows you watch movies online, watch tv shows online free in high quality. You can also download full movies from MyFlixer and watch it later if you want.
+                        </p>
+    
+                        <p class="footer-header__note">
+                            <i>This site does not store any files on our server, we only linked to the media which is hosted on 3rd party services</i>
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="footer-bottom">
+                <a class="footer-bottom__link">Sitemap</a>
+                <a class="footer-bottom__link">Contact</a>
+                <a class="footer-bottom__link">About Us</a>
+                <a class="footer-bottom__link">DMCA</a>
+            </div>
+        </footer>
+        <!-- End footer -->
+
+        <!-- Sign in, Sign up modal -->
+        <div class="modal js-modal">
+            <div class="modal__overlay js-modal__overlay"></div>
+            <div class="modal__body">
+                <div class="auth-form">
+                    <!-- Sign in form -->
+                    <div class="auth-form__container js-sign-in__container">
+                        <div class="auth-form__header">
+                            <i class="auth-form__close-ico fa-solid fa-xmark js-auth-form__close"></i>
+                            <h2 class="auth-form__heading">Sign In</h2>
+                        </div>
+
+                        <form action="" class="auth-form__form">
+                            <div class="auth-form__group auth-form__group--vertical">
+                                <label for="" class="auth-form__label">Your account</label>
+                                <input type="text" name="" class="auth-form__input" placeholder="Your username or email">
+                            </div>  
+
+                            <div class="auth-form__group auth-form__group--vertical">
+                                <label for="" class="auth-form__label">Password</label>
+                                <input type="password" name="" class="auth-form__input" placeholder="Password">
+                            </div>
+
+                            <a href="" class="auth-form__forgot">Forgot your password?</a>
+                            
+                            <div class="auth-form__checkbox-group">
+                                <input type="checkbox" name="" class="auth-form__checkbox" placeholder="">
+                                <label for="" class="auth-form__label">Remember me</label>
+                            </div>
+
+                            <div class="auth-form__control">
+                                <button class="auth-form__control-btn">Login</button>
+                            </div>
+
+                            <span class="auth-form__change js-sign-in__change">
+                                Don't have an account? <span href="" class="auth-form__change-btn"> Register</span>
+                            </span>
+                        </form> 
+                    </div>
+                    <!-- Register form -->
+                    <div class="auth-form__container js-register__container register-modal">
+                        <div class="auth-form__header">
+                            <i class="auth-form__close-ico fa-solid fa-xmark js-auth-form__close"></i>
+                            <h2 class="auth-form__heading">Create Account</h2>
+                        </div>
+
+                        <span class="auth-form__reminder">Create an account to enjoy more features</span>
+
+                        <form action="" class="auth-form__form">
+                            <div class="auth-form__group auth-form__group--vertical">
+                                <label for="" class="auth-form__label">Username</label>
+                                <input type="text" name="" class="auth-form__input" placeholder="Your username">
+                            </div>  
+
+                            <div class="auth-form__group auth-form__group--vertical">
+                                <label for="" class="auth-form__label">Email address</label>
+                                <input type="email" name="" class="auth-form__input" placeholder="Your email">
+                            </div> 
+
+                            <div class="auth-form__group auth-form__group--vertical">
+                                <label for="" class="auth-form__label">Password</label>
+                                <input type="password" name="" class="auth-form__input" placeholder="Password">
+                            </div>
+
+                            <div class="auth-form__group auth-form__group--vertical">
+                                <label for="" class="auth-form__label">Password confirmation</label>
+                                <input type="password" name="" class="auth-form__input" placeholder="Repeat your password">
+                            </div>
+
+                            <div class="auth-form__group auth-form__group--capcha">
+                                <img src="assets/images/captcha.png" alt="captcha" class="auth-form__capcha">
+                                <input type="password" name="" class="auth-form__input auth-form__input--capcha" placeholder="Enter the captcha">
+                            </div>
+
+                            <div class="auth-form__control">
+                                <button class="auth-form__control-btn">Register</button>
+                            </div>
+
+                            <span class="auth-form__change js-register__change">
+                                Already have an account? <span href="" class="auth-form__change-btn">Sign in</span>
+                            </span>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Const
+        const auth = document.querySelector(".js-header-navbar__user");
+        const authForm = document.querySelector(".js-modal");
+        const closeFormBtns = document.querySelectorAll(".js-auth-form__close");
+        const modalOverlay = document.querySelector(".js-modal__overlay");
+        const signIn = document.querySelector('.js-sign-in__container');
+        const signInChange = document.querySelector('.js-sign-in__change');
+        const register = document.querySelector('.js-register__container');
+        const registerChange = document.querySelector('.js-register__change');
+
+        auth.addEventListener('click', function(){
+            authForm.classList.add('open-modal');
+        })
+
+        for(const closeFormBtn of closeFormBtns ){
+            closeFormBtn.addEventListener('click', function(){
+                authForm.classList.remove('open-modal');
+                signIn.classList.remove('sign-in-modal');
+                register.classList.add('register-modal');
+            })
+        }
+
+        modalOverlay.addEventListener('click', function(){
+            authForm.classList.remove('open-modal');
+        })
+
+        signInChange.addEventListener('click', function(){
+            signIn.classList.add('sign-in-modal');
+            register.classList.remove('register-modal');
+        })
+        
+        registerChange.addEventListener('click', function(){
+            signIn.classList.remove('sign-in-modal');
+            register.classList.add('register-modal');
+        })
+    </script>
+</body>
+</html>
